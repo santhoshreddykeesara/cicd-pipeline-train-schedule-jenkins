@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_cicd_pipeline_train_schedule_jenkins_1683571918870-pr-trigger-input-set
+  identifier: Build_cicd_pipeline_train_schedule_jenkins_1683571918870prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_cicd_pipeline_train_schedule_jenkins_1683571918870
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
